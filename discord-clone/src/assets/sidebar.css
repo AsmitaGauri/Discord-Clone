@@ -1,0 +1,73 @@
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  flex: 0.25;
+  height: 100vh;
+
+  background-color: #2f3135 !important;
+}
+
+.siderbar__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  color: white;
+  border-bottom: 3px solid #26282c;
+}
+
+.siderbar_channels {
+  flex: 1;
+}
+
+.siderbar__addChannel {
+  cursor: pointer;
+}
+.siderbar__addChannel:hover {
+  color: white;
+}
+
+.siderbar__channelsHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  color: gray;
+}
+
+.siderbar_header {
+  display: flex;
+  align-items: center;
+}
+
+.siderbar__voie,
+.sidebar__profile {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: gray;
+  padding: 10px;
+  border-top: 1px solid gray;
+}
+
+.siderbar__voiceInfo,
+.siderbar__profileInfo {
+  flex: 1;
+  padding: 10px;
+}
+.siderbar__voiceInfo > h3 {
+  color: #4fb185;
+}
+
+.siderbar__voiceIcon {
+  color: #4fb185;
+}
+
+.siderbar__voiceInfo > p {
+  font-size: smaller;
+}
+
+.siderbar__voiceIcons > .MuiSvgIcon-root,
+.siderbar__profileIcons > .MuiSvgIcon-root {
+  padding: 10px;
+}

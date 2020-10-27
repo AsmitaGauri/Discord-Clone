@@ -1,0 +1,25 @@
+.app {
+  display: flex;
+}
+
+.login {
+  display: grid;
+  place-items: center;
+  width: 100%;
+  height: 100vh;
+}
+.login > button {
+  background-color: #738adb;
+  color: #eff2f5;
+  font-weight: 800;
+  width: 300px;
+}
+.login > button:hover {
+  color: white;
+  background-color: rgba(115, 138, 219, 0.5);
+}
+
+.login > div > img {
+  object-fit: contain;
+  height: 150px;
+}
